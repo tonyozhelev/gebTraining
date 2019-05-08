@@ -1,0 +1,20 @@
+plugins {
+    id 'groovy'
+    id 'java'
+}
+
+group 'tonyo'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.spockframework:spock-core:1.2-groovy-2.5"
+    compile "org.gebish:geb-core:2.3.1"
+    compile "org.gebish:geb-spock:2.3.1"
+    compile "org.seleniumhq.selenium:selenium-chrome-driver:3.5.3"
+}
