@@ -14,8 +14,8 @@ class BaseSpec extends GebSpec{
         setupTest()
     }
 
-    void getBaseURL(){
-        browserConfig.baseUrl
+    String getBaseURL(){
+        return browserConfig.baseUrl
     }
 
     //izpolzva se za da si setvam nastroiki bez da pipam setup metoda
