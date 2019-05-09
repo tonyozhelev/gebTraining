@@ -1,6 +1,4 @@
 import geb.Browser
-import geb.error.GebException
-import geb.spock.GebReportingSpec
 import geb.spock.GebSpec
 
 class BaseSpec extends GebSpec{

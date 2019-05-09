@@ -18,6 +18,6 @@ driver = {
 
 environments {
     'dev' {
-        baseUrl = "http://www.google.bg"
+        baseUrl = "http://automationpractice.com/index.php"
     }
 }
