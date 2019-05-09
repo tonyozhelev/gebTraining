@@ -2,7 +2,7 @@ import pageObjects.AuthenticationPage
 import pageObjects.IndexPage
 
 class TestingSpec extends BaseSpec {
-    void signinclicktest(){
+    void signinClickTest(){
         given:
         def page = new IndexPage()
         to page
