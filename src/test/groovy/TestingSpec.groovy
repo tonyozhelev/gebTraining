@@ -32,8 +32,9 @@ class TestingSpec extends BaseSpec {
         when:
         createAccount("test123@test123.test1")
         CreateAccountPage newPage = at CreateAccountPage
-        newPage.radioGender.id_gender = "2"
+        //TODO: da pitam iliq kak da go deklariram direktno v samiq class
+        newPage.radioGender.id_gender = '2'
         then:
-        newPage.radioGender.id_gender == "2"
+        newPage.radioGender.id_gender == '2'
     }
 }
