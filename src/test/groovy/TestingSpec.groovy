@@ -4,11 +4,12 @@ import pageObjects.IndexPage
 class TestingSpec extends BaseSpec {
     void signinClickTest(){
         given:
-        def page = new IndexPage()
-        to page
+        to IndexPage
         when:
-        page.signIn()
+        signIn()
         then:
+        //added to actually see the page I go to
+        sleep(1000)
         at AuthenticationPage
     }
 }
