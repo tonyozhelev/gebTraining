@@ -13,7 +13,7 @@ class TestingSpec extends BaseSpec {
         at AuthenticationPage
     }
 
-    void signinClickTest2(){
+    void goToAuthenticationPageTest(){
         given:
         to AuthenticationPage
         when:
