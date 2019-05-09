@@ -1,6 +1,10 @@
 import pageObjects.AuthenticationPage
+import pageObjects.CreateAccountPage
 import pageObjects.IndexPage
+import pageObjects.MyAccountPage
 
+
+//tests here are designed only to verify that the Page Object properties are working as intended
 class TestingSpec extends BaseSpec {
     void signinClickTest(){
         given:
@@ -9,18 +13,27 @@ class TestingSpec extends BaseSpec {
         signIn()
         then:
         //added to actually see the page I go to
-        sleep(1000)
         at AuthenticationPage
     }
 
-    void goToAuthenticationPageTest(){
+
+    void loginTest(){
         given:
         to AuthenticationPage
         when:
-        true
+        login("fadsfs@fdsf.dsa", "asdfgqwer")
         then:
-        //added to actually see the page I go to
-        sleep(1000)
-        at AuthenticationPage
+        at MyAccountPage
+    }
+
+    void radioTest(){
+        given:
+        to AuthenticationPage
+        when:
+        createAccount("test123@test123.test1")
+        CreateAccountPage newPage = at CreateAccountPage
+        newPage.radioGender.id_gender = "2"
+        then:
+        newPage.radioGender.id_gender == "2"
     }
 }

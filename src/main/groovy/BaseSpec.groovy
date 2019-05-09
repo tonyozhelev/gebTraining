@@ -22,6 +22,10 @@ class BaseSpec extends GebSpec{
     }
 
     void cleanup(){
+
+    }
+
+    void cleanupSpec() {
         browser.driver.close()
         browser.driver.quit()
     }

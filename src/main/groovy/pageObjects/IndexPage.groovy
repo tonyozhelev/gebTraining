@@ -3,7 +3,7 @@ import geb.Page
 
 class IndexPage extends Page{
     static at = {
-        homePageSlider.isDisplayed()
+        waitFor{homePageSlider.isDisplayed()}
     }
 
     static content = {
