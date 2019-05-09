@@ -3,9 +3,10 @@ import pageObjects.IndexPage
 
 class TestingSpec extends BaseSpec {
     void signinclicktest(){
-        when:
+        given:
         def page = new IndexPage()
         to page
+        when:
         page.signIn()
         then:
         at AuthenticationPage
