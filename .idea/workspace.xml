@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1bd3058b-3c0d-4750-a966-829580e3f5ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/groovy/pageObjects/AuthenticationPage.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/groovy/pageObjects/AuthenticationPage.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/groovy/TestingSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/TestingSpec.groovy" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/TestingSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="340">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -46,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/pageObjects/AuthenticationPage.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="170">
+              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -58,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/pageObjects/IndexPage.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -68,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/resources/GebConfig.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+              <caret line="20" column="59" lean-forward="true" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -98,9 +99,9 @@
         <option value="$PROJECT_DIR$/src/main/groovy/BaseSpec.groovy" />
         <option value="$PROJECT_DIR$/src/test/resources/GebConfig.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/LoginSpec.groovy" />
-        <option value="$PROJECT_DIR$/src/main/groovy/pageObjects/AuthenticationPage.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/pageObjects/IndexPage.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/TestingSpec.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/pageObjects/AuthenticationPage.groovy" />
       </list>
     </option>
   </component>
@@ -210,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestingSpec.signinclicktest">
+  <component name="RunManager" selected="JUnit.TestingSpec.signinClickTest2">
     <configuration name="LoginSpec.test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -236,6 +237,30 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LoginSpec" />
       <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-Dgeb.env=dev" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestingSpec.signinClickTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tonyo.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestingSpec" />
+      <option name="METHOD_NAME" value="signinClickTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-Dgeb.env=dev" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestingSpec.signinClickTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tonyo.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestingSpec" />
+      <option name="METHOD_NAME" value="signinClickTest2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-Dgeb.env=dev" />
       <option name="PARAMETERS" value="" />
@@ -269,9 +294,13 @@
       <item itemvalue="Gradle.LoginSpec.test1" />
       <item itemvalue="JUnit.LoginSpec.test1" />
       <item itemvalue="JUnit.TestingSpec.signinclicktest" />
+      <item itemvalue="JUnit.TestingSpec.signinClickTest" />
+      <item itemvalue="JUnit.TestingSpec.signinClickTest2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestingSpec.signinClickTest2" />
+        <item itemvalue="JUnit.TestingSpec.signinClickTest" />
         <item itemvalue="JUnit.TestingSpec.signinclicktest" />
         <item itemvalue="JUnit.LoginSpec.test1" />
         <item itemvalue="Gradle.LoginSpec.test1" />
@@ -310,39 +339,53 @@
       <option name="project" value="LOCAL" />
       <updated>1557400323297</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="small fix in test">
+      <created>1557400481066</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557400481066</updated>
+    </task>
+    <task id="LOCAL-00005" summary="small fix in test">
+      <created>1557400992244</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557400992244</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestingSpec_signinclicktest - 2019.05.09 at 13h 54m 09s.xml">
-      <configuration name="TestingSpec.signinclicktest" configurationId="JUnit" />
+    <history-entry file="TestingSpec_signinClickTest - 2019.05.09 at 14h 18m 42s.xml">
+      <configuration name="TestingSpec.signinClickTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestingSpec_signinclicktest - 2019.05.09 at 13h 55m 56s.xml">
-      <configuration name="TestingSpec.signinclicktest" configurationId="JUnit" />
+    <history-entry file="TestingSpec_signinClickTest - 2019.05.09 at 14h 19m 46s.xml">
+      <configuration name="TestingSpec.signinClickTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestingSpec_signinclicktest - 2019.05.09 at 13h 56m 30s.xml">
-      <configuration name="TestingSpec.signinclicktest" configurationId="JUnit" />
+    <history-entry file="TestingSpec_signinClickTest - 2019.05.09 at 14h 20m 15s.xml">
+      <configuration name="TestingSpec.signinClickTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestingSpec_signinclicktest - 2019.05.09 at 13h 57m 45s.xml">
-      <configuration name="TestingSpec.signinclicktest" configurationId="JUnit" />
+    <history-entry file="TestingSpec_signinClickTest - 2019.05.09 at 14h 21m 22s.xml">
+      <configuration name="TestingSpec.signinClickTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestingSpec_signinclicktest - 2019.05.09 at 13h 58m 32s.xml">
-      <configuration name="TestingSpec.signinclicktest" configurationId="JUnit" />
+    <history-entry file="TestingSpec_signinClickTest - 2019.05.09 at 14h 21m 48s.xml">
+      <configuration name="TestingSpec.signinClickTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestingSpec_signinclicktest - 2019.05.09 at 14h 00m 15s.xml">
-      <configuration name="TestingSpec.signinclicktest" configurationId="JUnit" />
+    <history-entry file="TestingSpec_signinClickTest - 2019.05.09 at 14h 22m 53s.xml">
+      <configuration name="TestingSpec.signinClickTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestingSpec_signinclicktest - 2019.05.09 at 14h 00m 47s.xml">
-      <configuration name="TestingSpec.signinclicktest" configurationId="JUnit" />
+    <history-entry file="TestingSpec_signinClickTest2 - 2019.05.09 at 14h 25m 13s.xml">
+      <configuration name="TestingSpec.signinClickTest2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestingSpec_signinclicktest - 2019.05.09 at 14h 08m 31s.xml">
-      <configuration name="TestingSpec.signinclicktest" configurationId="JUnit" />
+    <history-entry file="TestingSpec_signinClickTest2 - 2019.05.09 at 14h 25m 42s.xml">
+      <configuration name="TestingSpec.signinClickTest2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestingSpec_signinclicktest - 2019.05.09 at 14h 10m 29s.xml">
-      <configuration name="TestingSpec.signinclicktest" configurationId="JUnit" />
+    <history-entry file="TestingSpec_signinClickTest - 2019.05.09 at 14h 26m 06s.xml">
+      <configuration name="TestingSpec.signinClickTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestingSpec_signinclicktest - 2019.05.09 at 14h 10m 58s.xml">
-      <configuration name="TestingSpec.signinclicktest" configurationId="JUnit" />
+    <history-entry file="TestingSpec_signinClickTest2 - 2019.05.09 at 14h 32m 21s.xml">
+      <configuration name="TestingSpec.signinClickTest2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -358,7 +401,7 @@
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -367,7 +410,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -461,7 +504,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/GebConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+          <caret line="20" column="59" lean-forward="true" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
@@ -471,27 +514,27 @@
     <entry file="file://$PROJECT_DIR$/src/test/groovy/LoginSpec.groovy">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/TestingSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/pageObjects/IndexPage.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/pageObjects/AuthenticationPage.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/TestingSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>

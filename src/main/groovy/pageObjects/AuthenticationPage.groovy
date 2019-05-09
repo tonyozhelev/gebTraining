@@ -4,7 +4,7 @@ import geb.Page
 
 class AuthenticationPage extends Page {
     static atCheckWaiting = true
-    static url = {"?controller=authentication"}
+    static url = "?controller=authentication"
     static at = {
         pageHeading.text() == "AUTHENTICATION"
     }

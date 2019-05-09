@@ -12,4 +12,15 @@ class TestingSpec extends BaseSpec {
         sleep(1000)
         at AuthenticationPage
     }
+
+    void signinClickTest2(){
+        given:
+        to AuthenticationPage
+        when:
+        true
+        then:
+        //added to actually see the page I go to
+        sleep(1000)
+        at AuthenticationPage
+    }
 }
