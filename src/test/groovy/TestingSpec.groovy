@@ -33,8 +33,13 @@ class TestingSpec extends BaseSpec {
         createAccount("test123@test123.test1")
         CreateAccountPage newPage = at CreateAccountPage
         //TODO: da pitam iliq kak da go deklariram direktno v samiq class
-        newPage.radioGender.id_gender = '2'
+        newPage.radioGender = "Mrs."
+        newPage.selectDays.selected = '2'
+        newPage.checkboxNewsletter.check()
         then:
-        newPage.radioGender.id_gender == '2'
+        newPage.radioGender.value() == '2'
+        newPage.selectDays.selectedText.trim() == '2'
+        newPage.checkboxNewsletter.checked
+
     }
 }
