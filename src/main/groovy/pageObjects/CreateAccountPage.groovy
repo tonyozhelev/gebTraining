@@ -36,5 +36,6 @@ class CreateAccountPage extends Page {
         addressHomePhone {$("#phone")}
         addressMobilePhone {$("#phone_mobile")}
         addressAlias {$("#alias")}
+        submitButton {$("#submitAccount")}
     }
 }
