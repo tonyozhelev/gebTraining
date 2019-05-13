@@ -5,6 +5,8 @@ import geb.module.RadioButtons
 import geb.module.Select
 import geb.module.Checkbox
 import geb.module.TextInput
+import geb.waiting.WaitTimeoutException
+import org.openqa.selenium.ElementNotInteractableException
 
 
 class CreateAccountPage extends Page {
@@ -73,7 +75,14 @@ class CreateAccountPage extends Page {
         addressAlias = args.get(22)
         submitButton.click()
 
-        //Todo: kak shte stane tova
-        return alertList.text()
+        //TODO: get alertList in separate method for more clean code;
+        String returnText = ""
+        try {
+             returnText = waitFor{alertList.text()}
+        }
+        catch (WaitTimeoutException e) {
+            println e.properties
+        }
+        return returnText
     }
 }

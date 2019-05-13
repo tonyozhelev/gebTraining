@@ -1,10 +1,12 @@
 import geb.Page
+import geb.navigator.Navigator
 import pageObjects.AuthenticationPage;
 import pageObjects.CreateAccountPage
 import pageObjects.MyAccountPage;
 
 class CreateUserSpec extends BaseSpec {
 
+    //samo za podskazka
     def argsPossibleValues = ["radioGender - String: 1,2,Mr.,Mrs.",
                               "firstNameInput - String: any",
                               "lastNameInput - String: any",
@@ -28,6 +30,7 @@ class CreateUserSpec extends BaseSpec {
                               "addressHomePhone - String: any",
                               "addressMobilePhone - String: any",
                               "addressAlias - String: any"]
+
 
     void testAllIsEmpty() {
         given:
@@ -58,12 +61,13 @@ class CreateUserSpec extends BaseSpec {
         to AuthenticationPage
         when:
         //update before each itteration
-        def emailModifier = "9"
+        def emailModifier = "17"
         def email = emailModifier + "test123@test123.test1"
         createAccount(email)
         Page newPage = at CreateAccountPage
         def errors = newPage.registerUser(["","name","lastname",email,"12345","","","","","","name","lastname","","address","","city","1","12345","21","","123456","","allias"])
         then:
+        errors == ""
         at MyAccountPage
     }
 }

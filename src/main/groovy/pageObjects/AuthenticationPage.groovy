@@ -1,6 +1,7 @@
 package pageObjects
 
 import geb.Page
+import org.openqa.selenium.By
 
 class AuthenticationPage extends Page {
     static atCheckWaiting = true
@@ -16,6 +17,7 @@ class AuthenticationPage extends Page {
         loginEmailAdress {$("#email")}
         loginPassword {$("#passwd")}
         loginSubmit {$("#SubmitLogin")}
+        loginError {$(By.xpath("(//div[contains(@class,'alert')])[1]"))}
     }
 
     void createAccount(String accountName) {
@@ -27,5 +29,9 @@ class AuthenticationPage extends Page {
         loginEmailAdress = accountName
         loginPassword = password
         loginSubmit.click()
+    }
+
+    String checkError() {
+        return loginError.text()
     }
 }
