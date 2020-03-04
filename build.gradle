@@ -17,4 +17,6 @@ dependencies {
     compile "org.gebish:geb-core:2.3.1"
     compile "org.gebish:geb-spock:2.3.1"
     compile "org.seleniumhq.selenium:selenium-chrome-driver:3.5.3"
+    //required for select module
+    compile 'org.seleniumhq.selenium:selenium-support:3.5.3'
 }

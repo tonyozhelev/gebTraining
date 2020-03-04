@@ -3,8 +3,8 @@ import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.chrome.ChromeOptions
 import org.openqa.selenium.remote.DesiredCapabilities
 
-driver {
-    def chromeDriver = new File("src/test/resources/chromedriver.exe")
+driver = {
+    def chromeDriver = new File("src/test/resources/drivers/chromedriver.exe")
     System.setProperty('webdriver.chrome.driver', chromeDriver.absolutePath)
     DesiredCapabilities capabilities = DesiredCapabilities.chrome()
     ChromeOptions chromeOptions = new ChromeOptions()
@@ -16,4 +16,8 @@ driver {
     driver
 }
 
-
+environments {
+    'dev' {
+        baseUrl = "http://automationpractice.com/index.php"
+    }
+}

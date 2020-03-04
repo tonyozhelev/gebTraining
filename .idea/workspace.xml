@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bd3058b-3c0d-4750-a966-829580e3f5ee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/groovy/pageObjects/AuthenticationPage.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/groovy/pageObjects/AuthenticationPage.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/groovy/pageObjects/CreateAccountPage.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/groovy/pageObjects/CreateAccountPage.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/CreateUserSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/CreateUserSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/LoginSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/LoginSpec.groovy" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -21,75 +27,100 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/GebConfig.groovy">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/pageObjects/CreateAccountPage.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="384">
+              <caret line="77" column="69" selection-start-line="77" selection-start-column="69" selection-end-line="77" selection-end-column="69" />
               <folding>
-                <element signature="e#0#36#0" expanded="true" />
+                <element signature="e#21#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/BaseSpec.groovy">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/pageObjects/IndexPage.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            <state relative-caret-position="153">
+              <caret line="9" column="45" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/TestingSpec.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/LoginSpec.groovy">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/CreateUserSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.gebish/geb-spock/2.3.1/1dba8f3614dabaf711348a2fae4cac2dc91caec6/geb-spock-2.3.1-sources.jar!/geb/spock/GebSpec.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+            <state relative-caret-position="758">
+              <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
               <folding>
-                <element signature="e#632#650#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spockframework/spock-core/1.2-groovy-2.5/61fafd5ed7e61dad39272618e84c8ae5004ffa7a/spock-core-1.2-groovy-2.5-sources.jar!/spock/lang/Specification.java">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/pageObjects/AuthenticationPage.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="68" column="35" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
+            <state relative-caret-position="-7">
+              <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#21#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/LoginSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state relative-caret-position="357">
+              <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>p</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -97,18 +128,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/groovy/LoginSpec.groovy" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/groovy/BaseSpec.groovy" />
         <option value="$PROJECT_DIR$/src/test/resources/GebConfig.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/BaseSpec.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/pageObjects/IndexPage.groovy" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/groovy/pageObjects/MyAccountPage.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/TestingSpec.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/CreateUserSpec.java" />
+        <option value="$PROJECT_DIR$/src/test/groovy/CreateUserSpec.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/pageObjects/CreateAccountPage.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/pageObjects/AuthenticationPage.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/LoginSpec.groovy" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2131" />
-    <option name="y" value="-10" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="1913" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -116,35 +153,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="tonyo" type="b2602c69:ProjectViewProjectNode" />
               <item name="tonyo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="tonyo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tonyo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tonyo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tonyo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tonyo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tonyo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tonyo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tonyo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tonyo" type="b2602c69:ProjectViewProjectNode" />
@@ -156,6 +170,21 @@
               <item name="tonyo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="tonyo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tonyo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tonyo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tonyo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="pageObjects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tonyo" type="b2602c69:ProjectViewProjectNode" />
@@ -185,14 +214,12 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="drivers" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="tonyo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,31 +247,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoginSpec.test1 (1)">
-    <configuration name="LoginSpec.test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;LoginSpec.test1&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="LoginSpec.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LoginSpec.testValidUserLogin">
+    <configuration name="CreateUserSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tonyo.test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginSpec" />
+      <option name="MAIN_CLASS_NAME" value="CreateUserSpec" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-Dgeb.env=dev" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateUserSpec.checkAllFieldsAreAvailable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tonyo.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CreateUserSpec" />
+      <option name="METHOD_NAME" value="checkAllFieldsAreAvailable" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-Dgeb.env=dev" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateUserSpec.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tonyo.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CreateUserSpec" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-Dgeb.env=dev" />
@@ -253,13 +284,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginSpec.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateUserSpec.testValidAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tonyo.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CreateUserSpec" />
+      <option name="METHOD_NAME" value="testValidAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-Dgeb.env=dev" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginSpec.testValidUserLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tonyo.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LoginSpec" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="METHOD_NAME" value="testValidUserLogin" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="--ea" />
+      <option name="VM_PARAMETERS" value="-Dgeb.env=dev" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -276,15 +319,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.LoginSpec.test1" />
-      <item itemvalue="JUnit.LoginSpec.test1" />
-      <item itemvalue="JUnit.LoginSpec.test1 (1)" />
+      <item itemvalue="JUnit.CreateUserSpec" />
+      <item itemvalue="JUnit.CreateUserSpec.test1" />
+      <item itemvalue="JUnit.CreateUserSpec.testValidAccount" />
+      <item itemvalue="JUnit.CreateUserSpec.checkAllFieldsAreAvailable" />
+      <item itemvalue="JUnit.LoginSpec.testValidUserLogin" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginSpec.test1 (1)" />
-        <item itemvalue="JUnit.LoginSpec.test1" />
-        <item itemvalue="Gradle.LoginSpec.test1" />
+        <item itemvalue="JUnit.LoginSpec.testValidUserLogin" />
+        <item itemvalue="JUnit.CreateUserSpec.checkAllFieldsAreAvailable" />
+        <item itemvalue="JUnit.CreateUserSpec.testValidAccount" />
+        <item itemvalue="JUnit.CreateUserSpec" />
+        <item itemvalue="JUnit.CreateUserSpec.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -299,38 +346,137 @@
       <option name="presentableId" value="Default" />
       <updated>1557316605355</updated>
     </task>
+    <task id="LOCAL-00001" summary="fixes added">
+      <created>1557332756300</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557332756300</updated>
+    </task>
+    <task id="LOCAL-00002" summary="create some POMs and a simple test">
+      <created>1557399949183</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557399949183</updated>
+    </task>
+    <task id="LOCAL-00003" summary="small fix in test">
+      <created>1557400323297</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557400323297</updated>
+    </task>
+    <task id="LOCAL-00004" summary="small fix in test">
+      <created>1557400481066</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557400481066</updated>
+    </task>
+    <task id="LOCAL-00005" summary="small fix in test">
+      <created>1557400992244</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557400992244</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added a test">
+      <created>1557401567191</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557401567191</updated>
+    </task>
+    <task id="LOCAL-00007" summary="small fix">
+      <created>1557401655677</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1557401655677</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added PO for create account and my account pages">
+      <created>1557418278097</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557418278097</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added PO for create account and my account pages">
+      <created>1557419299625</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1557419299625</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Create account page added all elements">
+      <created>1557486036703</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1557486036707</updated>
+    </task>
+    <task id="LOCAL-00011" summary="My Account page added all elements">
+      <created>1557489138967</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1557489138967</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added submit button to create account page">
+      <created>1557489246628</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1557489246628</updated>
+    </task>
+    <task id="LOCAL-00013" summary="1">
+      <created>1557489480270</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1557489480270</updated>
+    </task>
+    <task id="LOCAL-00014" summary="addded a few tests">
+      <created>1557507631296</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1557507631296</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginSpec_test1 - 2019.05.08 at 16h 30m 31s.xml">
-      <configuration name="LoginSpec.test1" configurationId="GradleRunConfiguration" />
+    <history-entry file="LoginSpec_testValidUserLogin - 2019.05.13 at 13h 38m 00s.xml">
+      <configuration name="LoginSpec.testValidUserLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginSpec_test1 - 2019.05.08 at 17h 30m 58s.xml">
-      <configuration name="LoginSpec.test1" configurationId="JUnit" />
+    <history-entry file="LoginSpec_testValidUserLogin - 2019.05.13 at 13h 38m 55s.xml">
+      <configuration name="LoginSpec.testValidUserLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginSpec_test1 - 2019.05.08 at 17h 32m 13s.xml">
-      <configuration name="LoginSpec.test1" configurationId="JUnit" />
+    <history-entry file="LoginSpec_testValidUserLogin - 2019.05.13 at 13h 44m 29s.xml">
+      <configuration name="LoginSpec.testValidUserLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginSpec_test1 - 2019.05.08 at 17h 33m 52s.xml">
-      <configuration name="LoginSpec.test1" configurationId="JUnit" />
+    <history-entry file="LoginSpec_testValidUserLogin - 2019.05.13 at 13h 45m 38s.xml">
+      <configuration name="LoginSpec.testValidUserLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginSpec_test1 - 2019.05.08 at 17h 34m 21s.xml">
-      <configuration name="LoginSpec.test1" configurationId="JUnit" />
+    <history-entry file="LoginSpec_testValidUserLogin - 2019.05.13 at 13h 46m 09s.xml">
+      <configuration name="LoginSpec.testValidUserLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginSpec_test1 - 2019.05.08 at 17h 36m 23s.xml">
-      <configuration name="LoginSpec.test1" configurationId="JUnit" />
+    <history-entry file="LoginSpec_testValidUserLogin - 2019.05.13 at 13h 46m 58s.xml">
+      <configuration name="LoginSpec.testValidUserLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginSpec_test1 - 2019.05.08 at 17h 36m 53s.xml">
-      <configuration name="LoginSpec.test1" configurationId="JUnit" />
+    <history-entry file="LoginSpec_testValidUserLogin - 2019.05.13 at 13h 51m 00s.xml">
+      <configuration name="LoginSpec.testValidUserLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginSpec_test1 - 2019.05.08 at 17h 37m 08s.xml">
-      <configuration name="LoginSpec.test1" configurationId="JUnit" />
+    <history-entry file="LoginSpec_testValidUserLogin - 2019.05.13 at 13h 52m 11s.xml">
+      <configuration name="LoginSpec.testValidUserLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginSpec_test1_(1) - 2019.05.08 at 17h 37m 25s.xml">
-      <configuration name="LoginSpec.test1 (1)" configurationId="JUnit" />
+    <history-entry file="LoginSpec_testValidUserLogin - 2019.05.13 at 13h 53m 02s.xml">
+      <configuration name="LoginSpec.testValidUserLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginSpec_test1_(1) - 2019.05.08 at 17h 38m 56s.xml">
-      <configuration name="LoginSpec.test1 (1)" configurationId="JUnit" />
+    <history-entry file="LoginSpec_testValidUserLogin - 2019.05.13 at 13h 55m 12s.xml">
+      <configuration name="LoginSpec.testValidUserLogin" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -344,8 +490,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -354,13 +501,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
@@ -374,22 +521,56 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixes added" />
+    <MESSAGE value="create some POMs and a simple test" />
+    <MESSAGE value="small fix in test" />
+    <MESSAGE value="added a test" />
+    <MESSAGE value="small fix" />
+    <MESSAGE value="added PO for create account and my account pages" />
+    <MESSAGE value="Create account page added all elements" />
+    <MESSAGE value="My Account page added all elements" />
+    <MESSAGE value="added submit button to create account page" />
+    <MESSAGE value="1" />
+    <MESSAGE value="addded a few tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="addded a few tests" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.gebish/geb-spock/2.3.1/1dba8f3614dabaf711348a2fae4cac2dc91caec6/geb-spock-2.3.1-sources.jar!/geb/spock/GebReportingSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spockframework/spock-core/1.2-groovy-2.5/61fafd5ed7e61dad39272618e84c8ae5004ffa7a/spock-core-1.2-groovy-2.5-sources.jar!/org/spockframework/runtime/BaseSpecRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="109" column="12" selection-start-line="109" selection-start-column="12" selection-end-line="109" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -402,10 +583,191 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spockframework/spock-core/1.2-groovy-2.5/61fafd5ed7e61dad39272618e84c8ae5004ffa7a/spock-core-1.2-groovy-2.5-sources.jar!/spock/lang/Specification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.gebish/geb-spock/2.3.1/1dba8f3614dabaf711348a2fae4cac2dc91caec6/geb-spock-2.3.1-sources.jar!/geb/spock/GebSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <folding>
+            <element signature="e#632#650#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.gebish/geb-core/2.3.1/e93da2111eeee3521fd126c357e22b7562410264/geb-core-2.3.1-sources.jar!/geb/navigator/SelectFactory.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.gebish/geb-core/2.3.1/e93da2111eeee3521fd126c357e22b7562410264/geb-core-2.3.1-sources.jar!/geb/content/PageContentSupport.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spockframework/spock-core/1.2-groovy-2.5/61fafd5ed7e61dad39272618e84c8ae5004ffa7a/spock-core-1.2-groovy-2.5-sources.jar!/org/spockframework/runtime/ErrorCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spockframework/spock-core/1.2-groovy-2.5/61fafd5ed7e61dad39272618e84c8ae5004ffa7a/spock-core-1.2-groovy-2.5-sources.jar!/org/spockframework/runtime/BaseSpecRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="467" selection-start-line="467" selection-end-line="467" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spockframework/spock-core/1.2-groovy-2.5/61fafd5ed7e61dad39272618e84c8ae5004ffa7a/spock-core-1.2-groovy-2.5-sources.jar!/org/spockframework/util/ReflectionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.5.3/cdd8d11d916774f0394567bc73f9361b41eefc2c/selenium-api-3.5.3-sources.jar!/org/openqa/selenium/WebDriver.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.gebish/geb-core/2.3.1/e93da2111eeee3521fd126c357e22b7562410264/geb-core-2.3.1-sources.jar!/geb/content/PageContentTemplateFactoryDelegate.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.gebish/geb-core/2.3.1/e93da2111eeee3521fd126c357e22b7562410264/geb-core-2.3.1-sources.jar!/geb/content/PageContentTemplate.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.gebish/geb-core/2.3.1/e93da2111eeee3521fd126c357e22b7562410264/geb-core-2.3.1-sources.jar!/geb/navigator/DefaultLocator.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/23.0/ed233607c5c11e1a13a3fd760033ed5d9fe525c2/guava-23.0-sources.jar!/com/google/common/base/Preconditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="1222" selection-start-line="1222" selection-end-line="1222" />
+          <folding>
+            <element signature="e#44649#44650#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/23.0/ed233607c5c11e1a13a3fd760033ed5d9fe525c2/guava-23.0-sources.jar!/com/google/common/collect/AbstractMapEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/23.0/ed233607c5c11e1a13a3fd760033ed5d9fe525c2/guava-23.0-sources.jar!/com/google/common/collect/ImmutableEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/23.0/ed233607c5c11e1a13a3fd760033ed5d9fe525c2/guava-23.0-sources.jar!/com/google/common/collect/ImmutableMapEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#1808#1809#0" expanded="true" />
+            <element signature="e#1852#1853#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/23.0/ed233607c5c11e1a13a3fd760033ed5d9fe525c2/guava-23.0-sources.jar!/com/google/common/collect/CollectPreconditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/23.0/ed233607c5c11e1a13a3fd760033ed5d9fe525c2/guava-23.0-sources.jar!/com/google/common/collect/Hashing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#1685#1686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/23.0/ed233607c5c11e1a13a3fd760033ed5d9fe525c2/guava-23.0-sources.jar!/com/google/common/collect/RegularImmutableMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/23.0/ed233607c5c11e1a13a3fd760033ed5d9fe525c2/guava-23.0-sources.jar!/com/google/common/collect/ImmutableMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/3.5.3/cfe0f84d2f9cec5c2f7584cccbce7810c2293508/selenium-remote-driver-3.5.3-sources.jar!/org/openqa/selenium/remote/RemoteWebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="443" selection-start-line="443" selection-end-line="443" />
+          <folding>
+            <element signature="e#14544#14545#0" expanded="true" />
+            <element signature="e#14582#14583#0" expanded="true" />
+            <element signature="e#17993#17994#0" expanded="true" />
+            <element signature="e#18045#18046#0" expanded="true" />
+            <element signature="e#20765#20766#0" expanded="true" />
+            <element signature="e#20807#20808#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.5.3/cdd8d11d916774f0394567bc73f9361b41eefc2c/selenium-api-3.5.3-sources.jar!/org/openqa/selenium/By.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="440" selection-start-line="440" selection-end-line="440" />
+          <folding>
+            <element signature="e#12914#12915#0" expanded="true" />
+            <element signature="e#12952#12953#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/GebConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="340">
+          <caret line="20" column="59" lean-forward="true" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
@@ -414,45 +776,93 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/BaseSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        <state relative-caret-position="476">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/pageObjects/MyAccountPage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+          <folding>
+            <element signature="e#21#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/CreateUserSpec.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.gebish/geb-core/2.3.1/e93da2111eeee3521fd126c357e22b7562410264/geb-core-2.3.1-sources.jar!/geb/navigator/NonEmptyNavigator.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-181">
+          <caret line="366" selection-start-line="366" selection-end-line="366" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/3.5.3/cfe0f84d2f9cec5c2f7584cccbce7810c2293508/selenium-remote-driver-3.5.3-sources.jar!/org/openqa/selenium/remote/RemoteWebElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="318" selection-start-line="318" selection-end-line="318" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/pageObjects/CreateAccountPage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="77" column="69" selection-start-line="77" selection-start-column="69" selection-end-line="77" selection-end-column="69" />
+          <folding>
+            <element signature="e#21#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/pageObjects/IndexPage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/TestingSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/pageObjects/AuthenticationPage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding>
+            <element signature="e#21#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/CreateUserSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="758">
+          <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/LoginSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.gebish/geb-spock/2.3.1/1dba8f3614dabaf711348a2fae4cac2dc91caec6/geb-spock-2.3.1-sources.jar!/geb/spock/GebSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        <state relative-caret-position="357">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
           <folding>
-            <element signature="e#632#650#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spockframework/spock-core/1.2-groovy-2.5/61fafd5ed7e61dad39272618e84c8ae5004ffa7a/spock-core-1.2-groovy-2.5-sources.jar!/spock/lang/Specification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="68" column="35" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>

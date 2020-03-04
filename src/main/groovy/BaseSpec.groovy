@@ -1,6 +1,4 @@
 import geb.Browser
-import geb.error.GebException
-import geb.spock.GebReportingSpec
 import geb.spock.GebSpec
 
 class BaseSpec extends GebSpec{
@@ -24,6 +22,10 @@ class BaseSpec extends GebSpec{
     }
 
     void cleanup(){
+
+    }
+
+    void cleanupSpec() {
         browser.driver.close()
         browser.driver.quit()
     }
